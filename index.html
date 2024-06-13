@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eriona Berisha - Junior Front-End Developer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Eriona Berisha</h1>
+        <p>Junior Front-End Developer</p>
+    </header>
+    <div class="container">
+        <section class="bio section" data-section="bio">
+            <h1>Eriona Berisha</h1>
+            <button onclick="toggleSection('bio')"> Bio</button>
+            <div class="content">
+                <img src="selfie.jfif" alt="Eriona Berisha">
+                <p>As an aspiring Junior Front-end Developer, I'm deeply committed to advancing in the tech industry and eager to seize enriching opportunities that foster my professional growth. My lack of experience in the tech industry I frame as an exciting opportunity rather than a limitation.</p>
+            </div>
+        </section>
+        
+        <section class="skills section" data-section="skills">
+            <h2>Skills & Abilities</h2>
+            <button onclick="toggleSection('skills')"> Skills</button>
+            <div class="content">
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>React</li>
+                    <li>JavaScript</li>
+                    <li>PHP</li>
+                    <li>Kotlin</li>
+                    <li>Git</li>
+                </ul>
+            </div>
+        </section>
+        
+        <section class="education section" data-section="education">
+            <h2>Education</h2>
+            <button onclick="toggleSection('education')"> Education</button>
+            <div class="content">
+                <p><strong>Faculty of Electrical and Computer Engineering, Prishtina</strong><br>
+                Computer Engineering</p>
+                <p>During my time studying computer engineering at university, I acquired a solid foundation in programming languages (Java, PHP, C++, React), algorithms, and data structures. Through hands-on projects and collaborations, I developed my skills in problem-solving and teamwork. While my professional experience may be limited, my academic background has equipped me with the necessary skills and mindset to thrive as a Junior front-end developer.</p>
+                <p><strong>AUK Training and Development Institute</strong><br>
+                Android App Development</p>
+                <p>During my Android App Development training at AUK Institute, guided by our instructor, I focused on using Kotlin. A standout project involved replicating a web page for Rick and Morty, highlighting our proficiency in both language and development. I underwent comprehensive soft skills training at the institute, honing communication, personal development, presentation, management, and critical thinking skills. Additionally, I successfully completed a Business Technical English course at AUK, refining my language proficiency for effective communication in both business and technical contexts.</p>
+            </div>
+        </section>
+        
+        <section class="projects section" data-section="projects">
+            <h2>Projects</h2>
+            <button onclick="toggleSection('projects')">Projects</button>
+            <div class="content">
+                <p><strong>Artfolio</strong><br>
+                <a href="https://github.com/thcainthry/Artfolio">https://github.com/thcainthry/Artfolio</a><br>
+                HTML, CSS, JavaScript, React<br>
+                This is a portfolio website for an artist to show her work and sell her art photos and many more.</p>
+            </div>
+        </section>
+        
+        <section class="contact section" data-section="contact" onclick="showAlert()">
+            <h2>Contact</h2>
+            <button onclick="toggleSection('contact')"> Contact</button>
+            <div class="content">
+                <p>Email: <a href="mailto:berishaeriona1@gmail.com">berishaeriona1@gmail.com</a></p>
+                <p>Phone: 045-230-035</p>
+                <p>GitHub: <a href="https://github.com/erionaberisha">github.com/erionaberisha</a></p>
+                <p>LinkedIn: <a href="https://linkedin.com/in/eriona-berisha-4aa25b253">linkedin.com/in/eriona-berisha-4aa25b253</a></p>
+            </div>
+        </section>
+      
+    </div>
+    <footer>
+        <p>&copy; 2024 Eriona Berisha</p>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
